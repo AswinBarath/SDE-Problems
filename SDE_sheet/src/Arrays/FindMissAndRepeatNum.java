@@ -17,11 +17,11 @@ public class FindMissAndRepeatNum {
 		int num = x ^ y;
 		int setBitNo = num & ~(num - 1);
 		/*
-		 * Now divide elements into two sets by comparing rightmost set bit of xor1 with
-		 * the bit at the same position in each element. Also, get XORs of two sets. The
-		 * two XORs are the output elements. The following two for loops serve the
-		 * purpose
-		 */
+		** Now divide elements into two sets by comparing rightmost set bit of xor1 with
+		** the bit at the same position in each element. Also, get XORs of two sets. The
+		** two XORs are the output elements. The following two for loops serve the
+		** purpose
+		*/
 		int b1 = 0, b2 = 0;
 		for (int i = 0; i < n; i++) {
 			if ((arr[i] & setBitNo) != 0)
