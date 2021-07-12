@@ -1,4 +1,4 @@
-package Arrays;
+package arrays;
 
 public class Sort012 {
 	public void sortColors(int[] nums) {
